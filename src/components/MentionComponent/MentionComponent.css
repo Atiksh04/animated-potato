@@ -1,0 +1,27 @@
+.inputbox {
+  padding: 0.5rem;
+  width: 30rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.dialog {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  text-align: left;
+  height: auto;
+  max-height: 10rem;
+  width: 100%;
+  margin: 0.25rem 0;
+  overflow-y: auto;
+}
+
+.dialog-element {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dialog-selected-element {
+  background: #f0f0f0;
+  color: #333333;
+}
